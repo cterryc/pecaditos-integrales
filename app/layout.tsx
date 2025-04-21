@@ -14,9 +14,8 @@ export const metadata: Metadata = {
     'Descubre nuestra deliciosa colección de productos integrales artesanales.',
   generator: 'v0.dev',
   icons: {
-    icon: 'https://olaclick-assets-prod.s3.amazonaws.com/companies/logos/5493e220-8ea1-4c33-9899-e12dfc16dc97.webp',
-    shortcut:
-      'https://olaclick-assets-prod.s3.amazonaws.com/companies/logos/5493e220-8ea1-4c33-9899-e12dfc16dc97.webp'
+    icon: '/logoPecaditos.webp',
+    shortcut: '/logoPecaditos.webp'
   },
   openGraph: {
     title: 'Pecaditos Integrales',
@@ -24,7 +23,7 @@ export const metadata: Metadata = {
       'Descubre nuestra deliciosa colección de productos integrales artesanales.',
     images: [
       {
-        url: 'https://olaclick-assets-prod.s3.amazonaws.com/companies/logos/5493e220-8ea1-4c33-9899-e12dfc16dc97.webp',
+        url: '/logoPecaditos.webp',
         width: 1200,
         height: 630,
         alt: 'Pecaditos Integrales Logo'
