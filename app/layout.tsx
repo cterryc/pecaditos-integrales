@@ -11,12 +11,25 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata: Metadata = {
   title: 'Pecaditos Integrales',
   description:
-    'Discover our collection of elegant and stylish handbags for women.',
+    'Descubre nuestra deliciosa colección de productos integrales artesanales.',
   generator: 'v0.dev',
   icons: {
     icon: 'https://olaclick-assets-prod.s3.amazonaws.com/companies/logos/5493e220-8ea1-4c33-9899-e12dfc16dc97.webp',
     shortcut:
       'https://olaclick-assets-prod.s3.amazonaws.com/companies/logos/5493e220-8ea1-4c33-9899-e12dfc16dc97.webp'
+  },
+  openGraph: {
+    title: 'Pecaditos Integrales',
+    description:
+      'Descubre nuestra deliciosa colección de productos integrales artesanales.',
+    images: [
+      {
+        url: 'https://olaclick-assets-prod.s3.amazonaws.com/companies/logos/5493e220-8ea1-4c33-9899-e12dfc16dc97.webp',
+        width: 1200,
+        height: 630,
+        alt: 'Pecaditos Integrales Logo'
+      }
+    ]
   }
 }
 
