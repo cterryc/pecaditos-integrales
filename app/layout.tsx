@@ -9,10 +9,15 @@ import type React from 'react' // Import React
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Elegant Bags | Luxury Handbags for Women',
+  title: 'Pecaditos Integrales',
   description:
     'Discover our collection of elegant and stylish handbags for women.',
-  generator: 'v0.dev'
+  generator: 'v0.dev',
+  icons: {
+    icon: 'https://olaclick-assets-prod.s3.amazonaws.com/companies/logos/5493e220-8ea1-4c33-9899-e12dfc16dc97.webp',
+    shortcut:
+      'https://olaclick-assets-prod.s3.amazonaws.com/companies/logos/5493e220-8ea1-4c33-9899-e12dfc16dc97.webp'
+  }
 }
 
 export default function RootLayout({

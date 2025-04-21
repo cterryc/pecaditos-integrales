@@ -9,6 +9,7 @@ import ShoppingCartPanel from './ShoppingCartPanel'
 import { useCart } from '@/contexts/CartContext'
 import UserMenu from './UserMenu'
 import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet'
+import Image from 'next/image'
 
 export default function Header() {
   const [isCartOpen, setIsCartOpen] = useState(false)
@@ -27,8 +28,15 @@ export default function Header() {
     <header className='border-b'>
       <div className='container mx-auto px-4 py-4 flex items-center justify-between'>
         <div className='flex items-center'>
-          <Link href='/' className='text-2xl font-bold'>
-            TuTienda
+          <Link href='/' className='text-2xl font-bold flex items-center gap-2'>
+            <Image
+              src='https://olaclick-assets-prod.s3.amazonaws.com/companies/logos/5493e220-8ea1-4c33-9899-e12dfc16dc97.webp'
+              className='h-12 w-12'
+              alt='Pecaditos Integrales'
+              width={50}
+              height={50}
+            />
+            Pecaditos Integrales
           </Link>
         </div>
 
